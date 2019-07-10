@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Universities in Bangladesh"> </item>
+
+    <item
+        android:title="Information Of all Universities in Bangladesh are presented through this app."
+        android:visible="true"></item>
+
+
+
+</menu>

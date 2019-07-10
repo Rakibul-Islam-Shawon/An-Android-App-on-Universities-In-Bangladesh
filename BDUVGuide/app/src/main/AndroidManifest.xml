@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gdm.bduvguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_uv"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PublicUVCategory" />
+        <activity android:name=".PrivateUVList" />
+        <activity android:name=".GeneralUV" />
+        <activity android:name=".EnggUv" />
+        <activity android:name=".TextileUV" />
+        <activity android:name=".ScienceTechUV" />
+        <activity android:name=".VatUV" />
+        <activity android:name=".AgriUV" />
+        <activity android:name=".MeriTimeUV" />
+        <activity android:name=".GeneralUniversity.DU" />
+        <activity android:name=".GeneralUniversity.CU" />
+        <activity android:name=".GeneralUniversity.RU" />
+        <activity android:name=".GeneralUniversity.JU" />
+        <activity android:name=".GeneralUniversity.KU" />
+        <activity android:name=".GeneralUniversity.JnU" />
+        <activity android:name=".GeneralUniversity.CoU" />
+        <activity android:name=".GeneralUniversity.BOU" />
+        <activity android:name=".GeneralUniversity.IU" />
+        <activity android:name=".GeneralUniversity.BRU" />
+        <activity android:name=".GeneralUniversity.JKKNIU" />
+        <activity android:name=".GeneralUniversity.BU" />
+        <activity android:name=".PrivateUniversity.BRACU" />
+        <activity android:name=".PrivateUniversity.NSU" />
+        <activity android:name=".PrivateUniversity.IUB" />
+        <activity android:name=".PrivateUniversity.AUST" />
+        <activity android:name=".PrivateUniversity.MIST" />
+        <activity android:name=".PrivateUniversity.EWU" />
+        <activity android:name=".PrivateUniversity.UIU" />
+        <activity android:name=".PrivateUniversity.UAP" />
+        <activity android:name=".PrivateUniversity.AIUB" />
+        <activity android:name=".PrivateUniversity.ULAB" />
+        <activity android:name=".PrivateUniversity.DIU" />
+        <activity android:name=".PrivateUniversity.IUBA" />
+        <activity android:name=".PrivateUniversity.IIUC" />
+        <activity android:name=".PrivateUniversity.BUBT" />
+        <activity android:name=".PrivateUniversity.BTUB" />
+        <activity android:name=".PrivateUniversity.EDU" />
+        <activity android:name=".PrivateUniversity.PU" />
+        <activity android:name=".ScienceTech.MBSTU" />
+        <activity android:name=".ScienceTech.HSTU" />
+        <activity android:name=".ScienceTech.NSTU" />
+        <activity android:name=".ScienceTech.SUST" />
+        <activity android:name=".ScienceTech.PSTU" />
+        <activity android:name=".ScienceTech.BSTU" />
+        <activity android:name=".EngineeringUv.BUET" />
+        <activity android:name=".EngineeringUv.CUET" />
+        <activity android:name=".EngineeringUv.DUET" />
+        <activity android:name=".EngineeringUv.KUET" />
+        <activity android:name=".EngineeringUv.RUET" />
+        <activity android:name=".AgriUniversity.BAU" />
+        <activity android:name=".AgriUniversity.BSMRAU" />
+        <activity android:name=".AgriUniversity.SAU" />
+        <activity android:name=".AgriUniversity.SAUV" />
+        <activity android:name=".VaterUniversity.CVASU" />
+        <activity android:name=".TexttileUniversity.BUT" />
+        <activity android:name=".MaritimeUniversity.BSMRMU"></activity>
+    </application>
+
+</manifest>
